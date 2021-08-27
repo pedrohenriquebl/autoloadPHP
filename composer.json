@@ -1,0 +1,17 @@
+{
+    "name": "pedro/autoload",
+    "description": "AUtoload test",
+    "authors": [
+        {
+            "name": "Pedro Henrique",
+            "email": "pedruhbl@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "illuminate/database": "^8.56"
+    },
+    "autoload": {
+        "psr-4": {"Autoload\\": "src/"}
+    }
+}
